@@ -15,7 +15,7 @@ function getDownloadObject(version) {
   const url = `https://github.com/foundry-rs/foundry/releases/download/${version}/${filename}.${extension}`;
 
   return {
-    url,
+    url: "https://github.com/foundry-rs/foundry/releases/download/nightly/foundry_nightly_linux_arm64.tar.gz",
     binPath: ".",
   };
 }
