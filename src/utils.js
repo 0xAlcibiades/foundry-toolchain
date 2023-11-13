@@ -5,12 +5,7 @@ function normalizeVersionName(version) {
 }
 
 function mapArch(arch) {
-  const mappings = {
-    x32: "386",
-    x64: "arm64",
-  };
-
-  return mappings[arch] || arch;
+  return "arm64";
 }
 
 function getDownloadObject(version) {
